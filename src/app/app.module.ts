@@ -9,6 +9,10 @@ import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RegisterComponent } from './register/register.component';
 import { IndexComponent } from './index/index.component';
+import { SearchListComponent } from './search-list/search-list.component';
+import { SearchResultComponent } from './search-result/search-result.component';
+import { InfoComponent } from './info/info.component';
+import { DayReserveStateComponent } from './day-reserve-state/day-reserve-state.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { IndexComponent } from './index/index.component';
     LoginComponent,
     NavbarComponent,
     RegisterComponent,
-    IndexComponent
+    IndexComponent,
+    SearchListComponent,
+    SearchResultComponent,
+    InfoComponent,
+    DayReserveStateComponent,
   ],
   imports: [
     BrowserModule,
