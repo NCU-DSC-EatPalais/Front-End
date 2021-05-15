@@ -1,0 +1,74 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<style>
+  .wbox{
+    width:100%;
+    /* height:300px;     */
+  }
+  .hbox{
+    width:100px;
+    height:100%;
+  }
+  .red{
+    background: lightcoral;
+  }
+  .pink{
+    background: pink;
+  }
+  .blue{
+    background: lightskyblue;
+  }
+  .green{
+    background: limegreen;
+  }
+  .btnmargin{
+    margin: 5px;
+  }
+  .t_center{
+    text-align: center;
+  }
+  .introbox{
+    padding: 10px;
+  }
+  a{
+    padding:0px;
+  }
+</style>
+<body>
+  <header>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Social Distence Free</a>
+        <form class="d-flex">
+          <button class="btn btn-outline-success btnmargin" type="login" onclick="location.href='login.html'">登入</button>
+          <button class="btn btn-outline-success btnmargin" type="register" onclick="location.href='register.html'">註冊</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main class="container wbox red">
+    <div class="container introbox green t_center">
+      <h1>介紹</h1>
+      <p>這是內文</p>
+      <p>這是內文</p>
+      
+    </div>
+
+    <div class="row">      
+      <!-- <a href="https://www.youtube.com/"> -->
+        <div class="col-6 blue" onclick="location.href='zonetwelve.html'">
+          商家管理
+        </div> 
+      <!-- </a> -->
+
+      <!-- <a href="https://www.youtube.com/"> -->
+        <div class="col-6 pink" onclick="location.href='zonetwelve.html'">
+        遊客登記
+        <br>
+        商家查詢
+        </div>
+      <!-- </a> -->
+    </div>
+
+  </main>
+
+  </body>
